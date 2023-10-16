@@ -1,0 +1,54 @@
+#contact {
+    background: var(--circuito);
+    height: auto;
+    width: 100%;
+}
+
+.form_contac {
+    height: 50%;
+    width: 100%;
+}
+
+#nombre,
+#telefono,
+#apellido {
+    height: 40px;
+    margin-top: 1em;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#detalle {
+    margin-top: 1em;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info_contac {
+    height: 50%;
+    width: 100%;
+    padding: 2rem;
+    background: #000;
+}
+
+.sub_menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.redes img {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}

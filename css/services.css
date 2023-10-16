@@ -1,0 +1,89 @@
+/* Estyles for services */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.services {
+  height: auto;
+  /* width: 100vw; */
+  /* background: orangered; */
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(min(100%, 19.3rem), 1fr)); */
+  grid-template-columns: repeat(2, 19rem);
+  grid-auto-rows: 23rem;
+  gap: 5rem 2rem;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.service-card {
+  position: relative;
+  box-shadow: -10px 8px 13px rgba(0, 0, 0, 0.2);
+  padding: 4rem 1rem;
+  border-radius: 0 0 2rem 0;
+}
+
+.service-card::before {
+  position: absolute;
+  background: #051f44;
+  content: "";
+  height: 6px;
+  width: 50%;
+  right: 0;
+  top: 0;
+  border-radius: 20px 0 0 20px;
+}
+
+.pop-services {
+  position: absolute;
+  bottom: -40px;
+  left: -30px;
+}
+
+.card-link {
+  color: #074fc9;
+  text-decoration: none;
+}
+
+.principal {
+  background: #fca311;
+}
+
+/* title-card-services -- paraghaps-card=services */
+
+.info-card-services {
+  height: 90%;
+}
+
+.btn-card {
+  height: 10%;
+}
+
+.tcs,
+.pcs,
+.card-link {
+  font-family: "Poppins", sans-serif;
+}
+
+.tcs {
+  font-size: 2rem;
+  color: #272727;
+  height: 40%;
+}
+
+.pcs {
+  font-size: 1.4rem;
+  color: #333333;
+  margin: 0.8rem 0rem;
+  height: 60%;
+}
+
+.service-paragraph{
+  font-family: var(--rale);
+  text-align: center;
+  font-size: 1.3rem;
+}

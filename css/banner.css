@@ -1,0 +1,140 @@
+/*Estilos del banner*/
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #363636;
+  min-height: 100vh;
+}
+
+#window {
+  position: relative;
+  height: 20rem;
+  width: 40rem;
+  /* padding: 0.5em 0.5em; */
+  background-color: #272727;
+  border-radius: 5px;
+}
+
+#window .window-btn {
+  height: 10%;
+  /* background-color: orange; */
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+#window .window-btn span {
+  display: block;
+  height: 13px;
+  width: 13px;
+  margin: 0 0.2rem;
+  border-radius: 50%;
+}
+
+#window .window-btn span:nth-child(1) {
+  background-color: rgb(238, 27, 27);
+}
+
+#window .window-btn span:nth-child(2) {
+  background-color: rgb(243, 243, 18);
+}
+
+#window .window-btn span:nth-child(3) {
+  background-color: green;
+}
+
+.window-btn-ok {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: var(--perlas);
+  padding: 0.3rem 1rem;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.3);
+}
+
+span#title-header {
+  display: block;
+  color: white;
+  font-weight: 600;
+  font-size: 2.3rem;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 23ch;
+  overflow: hidden;
+  margin: 1rem auto;
+  animation: typing 3s 1 steps(23), blink 0.8s infinite;
+  /* animation: typing 2s steps(23) alternate; */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#window-phrases {
+  /* background-color: orange; */
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phrase {
+  position: absolute;
+  font-size: 2rem;
+  color: white;
+  font-weight: 400;
+  font-family: var(--rale);
+  animation: roll 10s ease infinite backwards;
+}
+
+.phrase:nth-child(1) {
+  animation-delay: 4s;
+  opacity: 0;
+}
+
+.phrase:nth-child(2) {
+  opacity: 0;
+  animation-delay: 7s;
+}
+
+.phrase:nth-child(3) {
+  opacity: 0;
+  animation-delay: 10s;
+}
+
+
+@keyframes roll {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -70%, 0);
+  }
+
+  2.5%,
+  25% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+
+  27.5%,
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 70%, 0);
+  }
+}

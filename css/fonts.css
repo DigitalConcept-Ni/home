@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/*Estilso del banner*/
+
+:root {
+    --ablack: "Archivo Black", sans-serif;
+    --roboto: "Roboto", sans-serif;
+    --rale: "Raleway", sans-serif;
+}
+
+body {
+    font-family: var(--roboto);
+}
+
+.title_header {
+    font-size: 28px;
+}
+
+.parrafo_header {
+    font-size: 32px;
+}
+
+
+/*Estilos generales*/
+
+.title {
+    text-align: center;
+    font-family: var(--ablack);
+    font-size: 64px;
+}
+
+.title_sub {
+    font-size: 24px;
+    text-align: center;
+    font-family: var(--ablack);
+}
+
+.parrafo {
+    font-family: var(--rale);
+    text-align: center;
+    font-size: 22px;
+}
+
+
+/* Lista de diseno y desarrollo web */
+
+.parrafo_list {
+    font-family: var(--rale);
+    font-size: 22px;
+}
+
+
+/*Estilos del banner [RAPIDO, SEGURO, CONFIABLE]*/
+
+.b1 {
+    font-family: var(--ablack);
+    font-size: 2rem;
+    color: white;
+}
+
+.b2 {
+    font-family: var(--ablack);
+    font-size: 1.5rem;
+    text-align: center;
+}

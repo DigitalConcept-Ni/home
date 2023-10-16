@@ -1,0 +1,70 @@
+#afiliados {
+    height: auto;
+    background: var(--fondo);
+}
+
+.container_customer {
+    display: grid;
+    grid-template: repeat(4, 350px) / 1fr;
+    grid-gap: 2em;
+    justify-content: center;
+}
+
+.content_customer {
+    background: var(--perlas);
+    height: 100%;
+    width: 100%;
+}
+
+.contetn_img_customer {
+    height: 50%;
+    width: 100%;
+}
+
+.img_customer {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content_info_customer {
+    height: 50%;
+    width: 100%;
+    padding: 1em;
+}
+
+.txt_customer {
+    height: 70%;
+}
+
+.txt_customer h3 {
+    font-size: 22px;
+    font-family: var(--ablack);
+    color: white;
+}
+
+.txt_customer p {
+    font-size: 17px;
+    font-family: var(--roboto);
+    font-weight: 600;
+    margin-top: 10px;
+    color: var(--circuito);
+}
+
+.btn_customer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.btn_customer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    background: #34a853;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
